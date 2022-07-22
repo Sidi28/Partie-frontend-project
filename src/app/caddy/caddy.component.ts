@@ -29,6 +29,7 @@ export class CaddyComponent implements OnInit {
 
 
   onRemoveProductFromCaddy(p: ItemProduct) {
+    console.log('dd')
     this.caddyService.removeProduct(p.id);
   }
 
